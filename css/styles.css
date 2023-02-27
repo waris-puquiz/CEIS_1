@@ -34,6 +34,7 @@ font-size: 30px;
 /* 2-section */
 #section-2{
   /* height: auto; */
+  width: 100%;
   background-image:linear-gradient(to bottom left,#5bd059, #f77bb9); 
 }
 .section2-poster{
@@ -43,10 +44,38 @@ font-size: 30px;
 
 /* footer */
 #footer{
-  height: 500px;
+  width: 100%;
+  height: auto;
   background-color: #0E6E0D;
 }
 .ftr-logo{
   width: auto;
   height: 90px;
+}
+.ftr-text{
+  font-size: larger;
+  color: white;
+  font-style: normal;
+}
+.ftr-text-camp{
+  color: whitesmoke;
+}
+.icon{
+  color: #F0A4B1;
+}
+.icon-fb{
+  color: #3b5998;
+}
+.icon-yt{
+  color: #c4302b;
+}
+.icon-tw{
+  color: #00acee;
+}
+.ftr-text-add{
+  text-align: left;
+  color: white;
+}
+.ftr-con-num{
+  color: white;
 }
