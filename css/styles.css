@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+}
+@media (min-width: 768px) {
+    .custom-element {
+      color: var(--primary);
+    }
+  }
+  
+
+  img { 
+    max-width: 100%;
+    /* height: auto !important;  */
+  }
+/* header-logo */
+ .logo-header{
+  width: 80%;
+}
+.icon-text{
+  text-align: center;
+}
+.navbar{
+  background-color: #0E6E0D;
+}
+.section1-text{
+color: #F0A4B1;
+font-size: 30px;
+}
+#section-2{
+  /* height: auto; */
+  background-image:linear-gradient(to bottom left,#5bd059, #f77bb9); 
+}
+.section2-poster{
+  height: auto;
+}
