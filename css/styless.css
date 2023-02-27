@@ -78,7 +78,13 @@ font-size: 30px;
 .ftr-text-add{
   color: white;
   font-size: small;
+ 
 }
 .ftr-con-num{
   color: white;
+  font-size: small;
+}
+.ftr-email{
+  color: white;
+  font-size: small;
 }
