@@ -231,6 +231,11 @@ font-weight: bold;
   font-family: sans-serif;
   font-weight: bold;
 }
+.ceis{
+  color: #F0A4B1;
+  text-decoration: none;
+  
+}
 .hr-ac{
   width: 140px;
   height: 12px;
@@ -239,4 +244,15 @@ font-weight: bold;
 }
 .ac-side{
   font-family: sans-serif;
+}
+/* DIRECTORY */
+.direct-title{
+  font-family: sans-serif;
+  color: #F0A4B1;
+}
+.direct-line{
+  width: 500px;
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
