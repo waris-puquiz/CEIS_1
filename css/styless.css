@@ -27,6 +27,9 @@
  .logo-header{
   width: 80%;
 }
+.menu{
+  color:white !important;
+}
 .icon-text{
   text-align: center;
 }
@@ -194,7 +197,7 @@ font-weight: bold;
   }
 }
 
-/* about-ceis */
+/* ABOUT-CEIS */
 .container .nav .active{
   background-color: #F0A4B1 !important;
   color:white !important;
@@ -223,4 +226,17 @@ font-weight: bold;
 }
 .nav-direct:hover{
   color: black !important;
+}
+.about-ceis{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.hr-ac{
+  width: 140px;
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+.ac-side{
+  font-family: sans-serif;
 }
