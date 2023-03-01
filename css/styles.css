@@ -193,3 +193,34 @@ font-weight: bold;
     opacity: 1;
   }
 }
+
+/* about-ceis */
+.container .nav .active{
+  background-color: #F0A4B1 !important;
+  color:white !important;
+  font-weight: bolder !important;
+}
+.nav-ofvp{
+  color: black;
+}
+.nav-ofvp:hover{
+  color: black !important;
+}
+.nav-oah{
+  color: black;
+}
+.nav-oah:hover{
+  color: black !important;
+}
+.nav-facilities{
+  color: black;
+}
+.nav-facilities:hover{
+  color: black !important;
+}
+.nav-direct{
+  color: black;
+}
+.nav-direct:hover{
+  color: black !important;
+}
