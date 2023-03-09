@@ -374,8 +374,9 @@ font-weight: bold;
 } 
 
 .gallery p {
-  color: #f5a2bd;
+  color: #e75480;
   text-align: center;
+  
   background:rgb(14,110,13);
   -webkit-transform: translateY(-100px);
   -ms-transform: translateY(-100px);
@@ -384,7 +385,8 @@ font-weight: bold;
   transition: all .3s ease-in-out;
   padding: 10px;
   margin-top: 90px;
-  font-weight: 500;
+  /* font-weight: 500; */
+  font-weight: bolder;
 }
 
 .gallery:hover img{
@@ -394,7 +396,7 @@ font-weight: bold;
 }
 
 .gallery:hover .desc{
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .gallery p {
