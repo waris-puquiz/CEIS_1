@@ -449,9 +449,15 @@ font-weight: bold;
   .gallery{
       width: 100%;
   }
+  .gallery p{
+      display:none;
+  }
 }
 @media all and (max-width: 500px) {
   .gallery{
       width: 100%;
+  }
+  .gallery p{
+      display:none;
   }
 }
