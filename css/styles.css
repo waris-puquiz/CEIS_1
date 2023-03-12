@@ -445,13 +445,11 @@ font-weight: bold;
   transform: scale(1.2);
 }
 /* end of facilities */
-@media all and (max-width: 767px) {
+@media all and (max-width: 1400px) {
   .gallery{
       width: 100%;
   }
-}
-@media all and (max-width: 500px) {
-  .gallery{
-      width: 100%;
+  .gallery p{
+    display: none;
   }
 }
