@@ -469,6 +469,11 @@ font-weight: bold;
 }
 
 /* ADMISSIONS */
+.ep .ep-title{
+  font-family: sans-serif;
+ font-weight: bold;
+ color: black;
+}
 /* Expression */
 .admission{
   font-family: sans-serif;
