@@ -513,9 +513,9 @@ font-weight: bold;
   margin-left: 25px;
   font-size: 10px;
 }
-/* .btn-yl{
+.btn-yl{
   font-size: small;
-} */
+}
 .modal-body .yl-ps{
   display: list-item;
 }
