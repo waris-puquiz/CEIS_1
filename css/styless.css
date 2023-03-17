@@ -215,31 +215,41 @@ font-weight: bold;
   color: black;
 }
 .nav-ofvp:hover{
-  color: black !important;
+  color: white !important;
+  background-color: #0E6E0D;
+  font-weight: bold;
 }
 .nav-oah{
   color: black;
 }
 .nav-oah:hover{
-  color: black !important;
+  color: white !important;
+  background-color: #0E6E0D;
+  font-weight: bold;
 }
 .nav-faci{
   color: black;
 }
 .nav-faci:hover{
-  color: black !important;
+  color: white !important;
+  background-color: #0E6E0D;
+  font-weight: bold;
 }
 .nav-direct{
   color: black;
 }
 .nav-direct:hover{
-  color: black !important;
+  color: white !important;
+  background-color: #0E6E0D;
+  font-weight: bold;
 }
 .nav-haf{
   color: black;
 }
 .nav-haf:hover{
-  color: black !important;
+  color: white !important;
+  background-color: #0E6E0D;
+  font-weight: bold;
 }
 .about-ceis{
   font-family: sans-serif;
