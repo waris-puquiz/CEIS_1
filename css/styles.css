@@ -660,6 +660,15 @@ font-weight: bold;
   background-color: #0E6E0D;
   color: #fff;
 }
+/* tabs under school life */
+.nav-naf, .nav-culture, .nav-ath, .nav-com, .nav-research, .nav-ach{
+  color: black;
+}
+.nav-naf:hover, .nav-culture:hover, .nav-ath:hover, .nav-com:hover, .nav-research:hover, .nav-ach:hover{
+  color: white !important;
+  background-color: #0E6E0D;
+  font-weight: bold;
+}
 /* others style */
 .title-lnk{
    font-family: sans-serif;
@@ -670,4 +679,13 @@ font-weight: bold;
   height: 12px;
   border: 0;
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+/* tabs under others */
+.nav-links, .nav-career{
+  color: black;
+}
+.nav-links:hover, .nav-career:hover{
+  color: white !important;
+  background-color: #0E6E0D;
+  font-weight: bold;
 }
