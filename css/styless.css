@@ -660,6 +660,7 @@ font-weight: bold;
   background-color: #0E6E0D;
   color: #fff;
 }
+
 /* tabs under school life */
 .nav-naf, .nav-culture, .nav-ath, .nav-com, .nav-research, .nav-ach{
   color: black;
@@ -688,4 +689,8 @@ font-weight: bold;
   color: white !important;
   background-color: #0E6E0D;
   font-weight: bold;
+}
+#title-header{
+  font-size: small;
+  color: #0E6E0D;
 }

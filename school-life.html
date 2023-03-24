@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta/>
-        <title>CEIS</title>
+        <title>CEIS | SCHOOL-LIFE </title>
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon-32x32.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
@@ -81,7 +81,7 @@
 
       <!-- start code here -->
       <div class="container mt-3">
-        <h1 class="title-sl">School Life</h1>
+        <h1 class="title-sl">School Life / <a  id="title-header">NEWS AND FEATURES</a></h1>
         <hr class="hr-sl"/>
         </div>
    
@@ -89,8 +89,18 @@
         <div class="container pt-3">
           <div class="d-flex align-items-start">
             <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <button class="nav-link nav-naf active" id="v-pills-naf-tab" data-bs-toggle="pill" data-bs-target="#v-pills-naf" type="button" role="tab" aria-controls="v-pills-naf" aria-selected="true">NEWS AND FEATURES</button>
-              <button class="nav-link nav-culture" id="v-pills-culture-tab" data-bs-toggle="pill" data-bs-target="#v-pills-culture" type="button" role="tab" aria-controls="v-pills-culture" aria-selected="false">CULTURE AND ARTS</button>
+              <button class="nav-link nav-naf active" id="v-pills-naf-tab" data-bs-toggle="pill" data-bs-target="#v-pills-naf" type="button" role="tab" aria-controls="v-pills-naf" aria-selected="true" onclick="displayResult()">NEWS AND FEATURES</button>
+              <script>
+                function displayResult() {
+                  document.getElementById("title-header").innerHTML = "NEWS AND FEATURES";
+                }
+                </script>
+              <button class="nav-link nav-culture" id="v-pills-culture-tab" data-bs-toggle="pill" data-bs-target="#v-pills-culture" type="button" role="tab" aria-controls="v-pills-culture" aria-selected="false" onclick="displayResult1()">CULTURE AND ARTS</button>
+              <script>
+                function displayResult1() {
+                  document.getElementById("title-header").innerHTML = "CULTURE AND ARTS";
+                }
+                </script>
               <button class="nav-link nav-ath" id="v-pills-athlet-tab" data-bs-toggle="pill" data-bs-target="#v-pills-athlet" type="button" role="tab" aria-controls="v-pills-athlet" aria-selected="false">ATHLETICS</button>
               <button class="nav-link nav-com" id="v-pills-com-tab" data-bs-toggle="pill" data-bs-target="#v-pills-com" type="button" role="tab" aria-controls="v-pills-com" aria-selected="false">COMMUNITY OUTREACH</button>
               <button class="nav-link nav-research" id="v-pills-research-tab" data-bs-toggle="pill" data-bs-target="#v-pills-research" type="button" role="tab" aria-controls="v-pills-research" aria-selected="false">RESEARCH</button>
@@ -101,42 +111,42 @@
               <!-- NEWS AND FEATURES -->
               <div class="tab-pane fade show active" id="v-pills-naf" role="tabpanel" aria-labelledby="v-pills-naf-tab">
                 <div class="container">
-                  <h2>NEWS AND FEATURES</h2>
+                  
+                  
+                  
 
                 </div>
               </div>
               <!--culture and arts  -->
               <div class="tab-pane fade" id="v-pills-culture" role="tabpanel" aria-labelledby="v-pills-culture-tab">
                 <div class="container">
-                  <h2> CULTURE AND ARTS</h2>
+                 
 
                 </div>
               </div>
               <!--athletics  -->
               <div class="tab-pane fade" id="v-pills-athlet" role="tabpanel" aria-labelledby="v-pills-athlet-tab">
                 <div class="container">
-                  <h2>ATHLETICS </h2>
+                  
 
                 </div>
               </div>
               <!-- COMMUNITY OUTREACH -->
               <div class="tab-pane fade" id="v-pills-com" role="tabpanel" aria-labelledby="v-pills-com-tab">
                 <div class="container">
-                  <h2> COMMUNITY OUTREACH</h2>
-
+                 
                 </div>
               </div>
                <!-- RESEARCH -->
                <div class="tab-pane fade" id="v-pills-research" role="tabpanel" aria-labelledby="v-pills-research-tab">
                 <div class="container">
-                  <h2>RESEARCH </h2>
-
+                  
                 </div>
               </div>
                <!-- ACHIEVEMENTS -->
                <div class="tab-pane fade" id="v-pills-ach" role="tabpanel" aria-labelledby="v-pills-ach-tab">
                 <div class="container">
-                  <h2>ACHIEVEMENTS </h2>
+                  
 
                 </div>
               </div>
