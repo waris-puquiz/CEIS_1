@@ -81,7 +81,7 @@
 
       <!-- start code here -->
       <div class="container mt-3">
-        <h1 class="title-sl">School Life / <a  id="title-header">NEWS AND FEATURES</a></h1>
+        <h1 class="title-sl">School Life / <a id="title-header">NEWS AND FEATURES</a></h1>
         <hr class="hr-sl"/>
         </div>
    
@@ -101,19 +101,46 @@
                   document.getElementById("title-header").innerHTML = "CULTURE AND ARTS";
                 }
                 </script>
-              <button class="nav-link nav-ath" id="v-pills-athlet-tab" data-bs-toggle="pill" data-bs-target="#v-pills-athlet" type="button" role="tab" aria-controls="v-pills-athlet" aria-selected="false">ATHLETICS</button>
-              <button class="nav-link nav-com" id="v-pills-com-tab" data-bs-toggle="pill" data-bs-target="#v-pills-com" type="button" role="tab" aria-controls="v-pills-com" aria-selected="false">COMMUNITY OUTREACH</button>
-              <button class="nav-link nav-research" id="v-pills-research-tab" data-bs-toggle="pill" data-bs-target="#v-pills-research" type="button" role="tab" aria-controls="v-pills-research" aria-selected="false">RESEARCH</button>
-              <button class="nav-link nav-ach" id="v-pills-ach-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ach" type="button" role="tab" aria-controls="v-pills-ach" aria-selected="false">ACHIEVEMENTS</button>
+              <button class="nav-link nav-ath" id="v-pills-athlet-tab" data-bs-toggle="pill" data-bs-target="#v-pills-athlet" type="button" role="tab" aria-controls="v-pills-athlet" aria-selected="false"onclick="displayResult2()">ATHLETICS</button>
+              <script>
+                function displayResult2() {
+                  document.getElementById("title-header").innerHTML = "ATHLETICS";
+                }
+                </script>
+              <button class="nav-link nav-com" id="v-pills-com-tab" data-bs-toggle="pill" data-bs-target="#v-pills-com" type="button" role="tab" aria-controls="v-pills-com" aria-selected="false" onclick="displayResult3()">COMMUNITY OUTREACH</button>
+              <script>
+                function displayResult3() {
+                  document.getElementById("title-header").innerHTML = "COMMUNITY OUTREACH";
+                }
+                </script>
+              <button class="nav-link nav-research" id="v-pills-research-tab" data-bs-toggle="pill" data-bs-target="#v-pills-research" type="button" role="tab" aria-controls="v-pills-research" aria-selected="false" onclick="displayResult4()">RESEARCH</button>
+              <script>
+                function displayResult4() {
+                  document.getElementById("title-header").innerHTML = "RESEARCH";
+                }
+                </script>
+              <button class="nav-link nav-ach" id="v-pills-ach-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ach" type="button" role="tab" aria-controls="v-pills-ach" aria-selected="false" onclick="displayResult5()">ACHIEVEMENTS</button>
+              <script>
+                function displayResult5() {
+                  document.getElementById("title-header").innerHTML = "ACHIEVEMENTS";
+                }
+                </script>
             </div>
 
             <div class="tab-content" id="v-pills-tabContent">
               <!-- NEWS AND FEATURES -->
               <div class="tab-pane fade show active" id="v-pills-naf" role="tabpanel" aria-labelledby="v-pills-naf-tab">
                 <div class="container">
-                  
-                  
-                  
+                  <h2 class="title-sl">GRADUATION 2021</h2>
+                  <hr class="hr-sl"/>
+                  <h3 class="title-sl"> Message From CEIS Administration</h3>
+                  <iframe class="mt-2" src="files/Message from the Principal & Registrar and Asst. Principals                                                  .pdf#toolbar=0" width="100%" height="500px">
+                  </iframe>
+                  <h3 class="title-sl mt-5"> Moving-Up/Commencement Speaker's Profile</h3>
+                  <iframe class="mt-2" src="files/Profile of the Virtual Moving-Up and Commencement Speaker.pdf#toolbar=0" width="100%" height="500px"></iframe>
+
+                  <h3 class="title-sl mt-5 pt-5">Especail Announcement haha</h3>
+                  <a><img class="" src="images/lc.png"></a>
 
                 </div>
               </div>
