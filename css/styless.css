@@ -693,3 +693,24 @@ font-weight: bold;
 #title-header{
   font-size: medium;
 }
+.btn-olink{
+  background-color: #F0A4B1;
+  font-weight: bold;
+  width: 12.8rem;
+}
+
+.btn-olink:hover{
+  background-color: #0E6E0D;
+  color: #fff;
+}
+
+.em{
+  background-color: #F0A4B1;
+  font-weight: bold;
+  color: black;
+  width: 14.5rem;
+}
+.em:hover{
+  background-color: #0E6E0D;
+  color: #fff;
+}
