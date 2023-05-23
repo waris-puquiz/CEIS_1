@@ -478,7 +478,7 @@ font-weight: bold;
 	width: 100%;
 	height: 100%;
 	background: rgba(240, 164, 177, 0.658);
-	color: #000000;
+	color: #fff;
 	font-family: 'Quicksand', sans-serif;
 	display: flex;
 	flex-direction: column;
